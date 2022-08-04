@@ -11,17 +11,25 @@
 
 
 "Hello World".include?("Hello")
-
+# the include method is called on the string subject "Hello World"
+# hello argument is passed; the string subject includes "Hello World"
+# the return value is true
 
 "Hello World".end_with?("Hello")
-
+# the end_with method is called on the string subject "Hello World"
+# hello argument is passed. the string Hello World does not end with Hello
+# the return value is false
 
 "Hello World".end_with?("rld")
-
+# the end_with method is called on the string subject "Hello World"
+# rld argument is passed. the string Hello World ends with World
+# the return value is true
 
 12.even?
-
+# the even question mark method is called on the integer 12
+# since 12 is not odd
+# the return value is true
 
 18.next
-
-
+# the next method is called on the integer 18.
+# the return value is 19 
