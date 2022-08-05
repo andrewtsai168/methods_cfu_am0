@@ -7,11 +7,11 @@
 #  call downcase on the variable, print it out
 #  call reverse on the variable, print it out
 #  call length on the variable, print it out
-
-"Andrew Tsai".upcase
-"Taiwanese".downcase
-"Denver".reverse
-"Arapahoe County".length
+name = "Andrew Tsai"
+"name".upcase
+"name".downcase
+"name".reverse
+"name".length
 
 
 
@@ -58,4 +58,4 @@ last_login.replace("18/07/1987")
 #
 # => the output will be
 # a STRING
-# a string 
+# a string
